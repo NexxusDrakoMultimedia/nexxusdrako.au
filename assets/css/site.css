@@ -169,6 +169,13 @@ p:last-child { margin-bottom: 0; }
 .prose li { margin-bottom: var(--space-2); }
 .prose .meta { color: var(--ink-muted); }
 
+/* About */
+.about-head { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4) var(--space-6); margin-bottom: var(--space-6); }
+.about-avatar { display: block; width: 96px; height: 96px; border-radius: var(--radius-full); }
+.prose .about-head h1 { margin: 0; }
+.about-lede { font-size: 20px; line-height: 28px; }
+.about-callout { font-weight: 700; color: var(--accent); }
+
 /* Archive link lists */
 .archive-list { display: grid; gap: var(--space-1); list-style: none; padding: 0; }
 .prose .archive-list li { margin: 0; }
