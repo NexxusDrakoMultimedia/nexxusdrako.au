@@ -106,6 +106,9 @@ p:last-child { margin-bottom: 0; }
 .link-list { display: grid; gap: var(--space-2); margin: 0; padding: 0; list-style: none; }
 .link-list .nd-btn { width: 100%; justify-content: flex-start; }
 .link-list .nd-btn .nd-icon:last-child { margin-left: auto; }
+.link-list-compact { grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); }
+.link-list-compact .nd-btn .nd-icon:last-child { margin-left: 0; }
+.nd-eyebrow.link-group-title { margin: var(--space-6) 0 var(--space-2); }
 .feature { margin: 0; border: 1px solid var(--line); border-radius: var(--radius-md); overflow: hidden; }
 .feature img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
 .feature figcaption { padding: var(--space-4); }
