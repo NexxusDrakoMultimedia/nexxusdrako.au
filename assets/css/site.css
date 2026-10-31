@@ -169,6 +169,20 @@ p:last-child { margin-bottom: 0; }
 .prose li { margin-bottom: var(--space-2); }
 .prose .meta { color: var(--ink-muted); }
 
+/* Archive link lists */
+.archive-list { display: grid; gap: var(--space-1); list-style: none; padding: 0; }
+.prose .archive-list li { margin: 0; }
+.archive-list a { display: inline-flex; align-items: center; gap: var(--space-2); padding: var(--space-1) 0; overflow-wrap: anywhere; }
+.prose .nd-alert { margin: var(--space-6) 0; }
+
+/* Alert */
+.nd-alert { display: grid; grid-template-columns: auto 1fr; gap: var(--space-2); align-items: start; padding: var(--space-4); border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); font-family: var(--font-sans); }
+.nd-alert-icon { padding-top: 4px; }
+.nd-alert-warning { border-color: var(--warning); } .nd-alert-warning .nd-alert-icon { color: var(--warning); }
+.nd-alert-title { margin: 0; font-size: 16px; line-height: 24px; font-weight: 600; color: var(--ink); }
+.nd-alert-body { font-size: 14px; line-height: 20px; color: var(--ink-muted); }
+.nd-alert-body p { margin: 0; }
+
 /* Footer: Acknowledgement of Country and queer-by-design statement on solid ground */
 .site-footer { border-top: 1px solid var(--line); padding: var(--space-10) 0; }
 .statements { display: grid; gap: var(--space-10); }
