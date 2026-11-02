@@ -10,7 +10,7 @@ Plain static HTML and CSS with no build step. Styling follows the Nexxus Drako M
 - `assets/brand/`: logo, avatar ring and low-poly pattern from the design system
 - `assets/img/`: project and flag images
 
-Every page loads the Google tag (gtag.js) first in `<head>`.
+Google Analytics runs in Consent Mode v2 (advanced): storage is denied by default and granted only when the visitor accepts the cookie banner. `assets/js/consent.js` (included in every page's `<head>`) sets the defaults, loads gtag.js, shows the banner and stores the choice in localStorage. Any element with `data-cookie-settings` reopens the banner.
 
 Paths are root-absolute, so preview locally from the repo root:
 

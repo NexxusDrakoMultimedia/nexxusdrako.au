@@ -203,3 +203,12 @@ p:last-child { margin-bottom: 0; }
 .footer-links { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); margin: 0; padding: 0; list-style: none; font-size: 14px; line-height: 20px; }
 .footer-links a { color: var(--ink); }
 .footer-links a:hover { color: var(--accent); }
+
+/* Cookie consent banner and footer "Cookie settings" button */
+.cookie-banner { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--surface-brand); border-top: 2px solid var(--accent); padding: var(--space-4) 0; box-shadow: 0 -4px 24px rgb(0 0 0 / 0.6); }
+.cookie-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-4) var(--space-6); }
+.cookie-inner > div:first-child { flex: 1 1 360px; }
+.cookie-inner .heading { margin: 0 0 var(--space-1); }
+.cookie-actions { display: flex; gap: var(--space-2); }
+.link-button { background: none; border: 0; padding: 0; font: inherit; color: var(--ink); text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
+.link-button:hover { color: var(--accent); }
