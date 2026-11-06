@@ -143,6 +143,7 @@ p:last-child { margin-bottom: 0; }
 .nd-card { display: flex; flex-direction: column; width: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-md); overflow: hidden; font-family: var(--font-sans); }
 .nd-card-img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--maroon); }
 .nd-card-img-contain { object-fit: contain; }
+.nd-card-img-pad { box-sizing: border-box; padding: var(--space-4); }
 .nd-card-body { display: grid; gap: var(--space-2); justify-items: start; align-content: start; flex: 1; padding: var(--space-4); }
 .nd-card-title { margin: 0; font-family: var(--font-display); font-size: 20px; line-height: 26px; font-weight: 400; letter-spacing: 0.03em; text-transform: uppercase; color: var(--ink); }
 .nd-card-desc { margin: 0; font-size: 14px; line-height: 20px; color: var(--ink-muted); }
