@@ -1,0 +1,30 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "nexxusdrako-au",
+	"compatibility_date": "2026-11-01",
+	"assets": {
+		"directory": "."
+	},
+	"observability": {
+		"traces": {
+			"enabled": true,
+			"destinations": ["betterstack"],
+
+			// traces sample rate of 5%
+			"head_sampling_rate": 0.05,
+
+			// optional: export without storing traces in Cloudflare
+			"persist": false
+		},
+		"logs": {
+			"enabled": true,
+			"destinations": ["betterstack-logs"],
+
+			// logs sample rate of 60%
+			"head_sampling_rate": 0.6,
+
+			// optional: export without storing logs in Cloudflare
+			"persist": false
+		}
+	}
+}
