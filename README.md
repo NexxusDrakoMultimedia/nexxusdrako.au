@@ -1,6 +1,6 @@
-# nexxusdrakomultimedia.github.io
+# nexxusdrako.au
 
-The Nexxus Drako Multimedia website ([nexxusdrako.au](https://nexxusdrako.au/)), served by GitHub Pages.
+The Nexxus Drako Multimedia website ([nexxusdrako.au](https://nexxusdrako.au/)), hosted on Cloudflare Pages.
 
 Plain static HTML and CSS with no build step. Styling follows the Nexxus Drako Multimedia design system: the colour, type, spacing and radius tokens and the `nd-*` component classes live in `assets/css/site.css`, and the brand icon set is the sprite in `assets/icons.svg`.
 
