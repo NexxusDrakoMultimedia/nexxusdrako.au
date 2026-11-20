@@ -178,6 +178,13 @@ p:last-child { margin-bottom: 0; }
 .prose .about-head h1 { margin: 0; }
 .about-lede { font-size: 20px; line-height: 28px; }
 .about-callout { font-weight: 700; color: var(--accent); }
+.prose .about-facts { display: flex; flex-wrap: wrap; gap: var(--space-2); list-style: none; padding: 0; margin: 0 0 var(--space-4); }
+.prose .about-facts li { margin: 0; }
+.about-toc { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-bottom: var(--space-6); }
+.about-chapter { scroll-margin-top: var(--space-6); padding-top: var(--space-6); margin-top: var(--space-10); border-top: 1px solid var(--line); }
+.prose .about-chapter > h2 { margin: var(--space-1) 0 var(--space-4); }
+.about-sub { font-family: var(--font-display); font-weight: 400; font-size: 18px; line-height: 24px; letter-spacing: 0.03em; text-transform: uppercase; color: var(--ink); margin: var(--space-6) 0 var(--space-2); }
+.about-find { margin-top: var(--space-4); max-width: 420px; }
 
 /* Archive link lists */
 .archive-list { display: grid; gap: var(--space-1); list-style: none; padding: 0; }
