@@ -184,6 +184,9 @@ p:last-child { margin-bottom: 0; }
 .about-chapter { scroll-margin-top: var(--space-6); padding-top: var(--space-6); margin-top: var(--space-10); border-top: 1px solid var(--line); }
 .prose .about-chapter > h2 { margin: var(--space-1) 0 var(--space-4); }
 .about-sub { font-family: var(--font-display); font-weight: 400; font-size: 18px; line-height: 24px; letter-spacing: 0.03em; text-transform: uppercase; color: var(--ink); margin: var(--space-6) 0 var(--space-2); }
+.about-figure { margin: var(--space-6) 0; border: 1px solid var(--line); border-radius: var(--radius-md); overflow: hidden; }
+.about-figure img { display: block; width: 100%; height: auto; }
+.about-figure figcaption { padding: var(--space-3, 12px) var(--space-4); color: var(--ink-muted); }
 .about-find { margin-top: var(--space-4); max-width: 420px; }
 
 /* Archive link lists */
