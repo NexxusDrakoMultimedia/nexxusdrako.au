@@ -231,3 +231,8 @@ p:last-child { margin-bottom: 0; }
 .cookie-actions { display: flex; gap: var(--space-2); }
 .link-button { background: none; border: 0; padding: 0; font: inherit; color: var(--ink); text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
 .link-button:hover { color: var(--accent); }
+
+/* Projects filter chips (assets/js/projects-filter.js) */
+.filter-bar { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: 0 0 var(--space-6); }
+.filter-bar .nd-btn[aria-pressed="true"] { background: var(--accent); color: #000; }
+.card-grid > li[hidden] { display: none; }
