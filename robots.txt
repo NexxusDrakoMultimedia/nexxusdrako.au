@@ -1,0 +1,7 @@
+# All crawlers, including AI search and training crawlers, are welcome.
+# This file replaces the robots.txt Cloudflare was serving; the Content-Signal line keeps that signal explicit.
+User-agent: *
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Sitemap: https://nexxusdrako.au/sitemap.xml
