@@ -2,6 +2,7 @@
 <html lang="en-AU">
 <head>
 <script src="/assets/js/consent.js" defer></script>
+<script src="/assets/js/nav.js"></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Music Licensing and Sync Enquiries | Nexxus Drako</title>
@@ -132,15 +133,21 @@
 <header class="site-header">
   <div class="wrap">
     <a class="site-logo" href="/"><img src="/assets/brand/ndm-horizontal-gold.webp" width="900" height="300" alt="Nexxus Drako Multimedia"></a>
-    <nav class="site-nav" aria-label="Main">
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-menu" aria-label="Open menu">
+      <span class="nav-toggle-bar" aria-hidden="true"></span>
+    </button>
+    <nav class="site-nav" id="site-menu" aria-label="Main">
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/about/">About</a></li>
         <li><a href="/#projects">Projects</a></li>
+        <li><a href="/games/">Games</a></li>
+        <li><a href="/board-games/">Board games</a></li>
         <li><a href="/#contact">Contact</a></li>
         <li><a href="/archive/">Archive</a></li>
         <li><a href="/privacy/">Privacy</a></li>
         <li><a href="/music-licensing/" aria-current="page">Music licensing</a></li>
+        <li><button type="button" class="link-button" data-cookie-settings>Cookie settings</button></li>
       </ul>
     </nav>
   </div>
@@ -189,17 +196,7 @@
     </div>
     <div class="footer-base">
       <img src="/assets/brand/ndm-horizontal-gold.webp" width="900" height="300" alt="Nexxus Drako Multimedia" loading="lazy">
-      <ul class="footer-links">
-        <li><a href="/about/">About</a></li>
-        <li><a href="/games/">Games</a></li>
-        <li><a href="/board-games/">Board games</a></li>
-        <li><a href="/archive/">Archive</a></li>
-        <li><a href="/privacy/">Privacy</a></li>
-        <li><a href="/music-licensing/">Music licensing</a></li>
-        <li><button type="button" class="link-button" data-cookie-settings>Cookie settings</button></li>
-        <li><a href="mailto:nexxus@nexxusdrako.au">Email</a></li>
-        <li>© 2026 Nexxus Drako Multimedia</li>
-      </ul>
+      <p class="footer-copy">© 2026 Nexxus Drako Multimedia</p>
     </div>
   </div>
 </footer>
