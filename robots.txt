@@ -1,0 +1,6 @@
+# All crawlers are welcome, including AI search and AI training crawlers.
+# Note: if Cloudflare's managed robots.txt (Bot Preference Sync) is on, Cloudflare adds its own block above this file.
+User-agent: *
+Allow: /
+
+Sitemap: https://nexxusdrako.au/sitemap.xml
