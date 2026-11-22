@@ -1,5 +1,5 @@
 # All crawlers are welcome, including AI search and AI training crawlers.
-# This file replaces the managed robots.txt Cloudflare was serving.
+# Note: if Cloudflare's managed robots.txt (Bot Preference Sync) is on, Cloudflare adds its own block above this file.
 User-agent: *
 Allow: /
 
